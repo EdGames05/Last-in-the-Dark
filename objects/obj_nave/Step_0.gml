@@ -1,16 +1,22 @@
 /// @description Mover la nave de izquierda a derecha y crear los meteoritos
 // Puede escribir su código en este editor
 
-if(obj_jugadorBase.derecha_izquierda and obj_jugadorBase.jugador_se_mueve){
-	speed = lerp(velocidad_nave, 5, 0.3);
-	direction = 0;
-}
-else
-if(!obj_jugadorBase.derecha_izquierda and obj_jugadorBase.jugador_se_mueve)
-{
-	direction = 180;
-	speed = lerp(velocidad_nave, 5, 0.3);
+// Derecha es igual a true
+if(derecha_izquierda){
+	if((x - 302) <= 50){
+		direction = 0;
+		derecha_izquierda = false;
+	}
+	else{
+		direction = 180;
+	}
 }
 else{
-	speed = 0;
+	if((x + 302) >= 1340){
+		direction = 180;
+		derecha_izquierda = true;
+	}
+	else{
+		direction = 0;
+	}
 }

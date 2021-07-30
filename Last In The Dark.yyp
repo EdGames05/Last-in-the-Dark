@@ -8,6 +8,7 @@
     {"id":{"name":"spr_jugadorBase","path":"sprites/spr_jugadorBase/spr_jugadorBase.yy",},"order":2,},
     {"id":{"name":"spr_fondoInicio","path":"sprites/spr_fondoInicio/spr_fondoInicio.yy",},"order":0,},
     {"id":{"name":"spr_espacioParaJugar","path":"sprites/spr_espacioParaJugar/spr_espacioParaJugar.yy",},"order":1,},
+    {"id":{"name":"obj_meteoritos","path":"objects/obj_meteoritos/obj_meteoritos.yy",},"order":3,},
     {"id":{"name":"rm_inicio","path":"rooms/rm_inicio/rm_inicio.yy",},"order":0,},
   ],
   "Options": [
