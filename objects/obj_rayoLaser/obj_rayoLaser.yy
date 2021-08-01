@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_roca",
-    "path": "sprites/spr_roca/spr_roca.yy",
+    "name": "spr_rayoLaser",
+    "path": "sprites/spr_rayoLaser/spr_rayoLaser.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objetos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_meteoritos",
+  "name": "obj_rayoLaser",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_roca",
-    "path": "sprites/spr_roca/spr_roca.yy",
+    "name": "spr_limiteRayo",
+    "path": "sprites/spr_limiteRayo/spr_limiteRayo.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,6 +23,7 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +32,7 @@
     "path": "folders/Objetos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_meteoritos",
+  "name": "obj_limiteRayo",
   "tags": [],
   "resourceType": "GMObject",
 }

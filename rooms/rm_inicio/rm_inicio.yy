@@ -14,7 +14,7 @@
   ],
   "layers": [
     {"assets":[
-        {"x":610.0,"y":543.0,"spriteId":{"name":"spr_espacioParaJugar","path":"sprites/spr_espacioParaJugar/spr_espacioParaJugar.yy",},"ignore":false,"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"inheritItemSettings":false,"resourceVersion":"1.0","name":"graphic_29A6A8CE","tags":[],"resourceType":"GMRSpriteGraphic",},
+        {"spriteId":{"name":"spr_espacioParaJugar","path":"sprites/spr_espacioParaJugar/spr_espacioParaJugar.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":610.0,"y":543.0,"resourceVersion":"1.0","name":"graphic_29A6A8CE","tags":[],"resourceType":"GMRSpriteGraphic",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"assets","tags":[],"resourceType":"GMRAssetLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_controlJuego","path":"objects/obj_controlJuego/obj_controlJuego.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":32.0,"resourceVersion":"1.0","name":"inst_7BA59103","tags":[],"resourceType":"GMRInstance",},

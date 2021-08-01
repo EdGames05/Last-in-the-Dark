@@ -8,4 +8,4 @@ derecha_izquierda = choose(true, false);
 
 speed = velocidad_nave;
 
-//alarm[0] = 1;
+alarm[0] = 1;
