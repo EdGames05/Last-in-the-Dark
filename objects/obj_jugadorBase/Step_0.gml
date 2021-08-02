@@ -14,31 +14,34 @@ if((keyboard_check_pressed(vk_space) or mouse_check_button_pressed(mb_left)) and
 	}
 }
 
-if(keyboard_check_pressed(vk_right) and puede_moverse){
-	direction = 0;
-	speed = velocidad;
-	derecha_izquierda = true;
+var derecha = keyboard_check(vk_right) or keyboard_check(ord("D"));
+var izquierda = keyboard_check(vk_left) or keyboard_check(ord("A"));
+var arriba = keyboard_check(vk_up) or keyboard_check(ord("W"));
+var abajo = keyboard_check(vk_down) or keyboard_check(ord("S"));
+
+var tecla_pulsada = (derecha or izquierda or arriba or abajo);
+
+var dx = derecha - izquierda;
+var dy = abajo - arriba;
+
+/*if((dx == 0) and (dy == 0)){
+	tecla_pulsada = false;
+}*/
+
+var direccion_real = point_direction(0, 0, dx, dy);
+
+// Ajustar velocidad si cualquiera fue presionado y direccion
+if(tecla_pulsada and puede_moverse){
+
+	x += lengthdir_x(velocidad, direccion_real);
+	y += lengthdir_y(velocidad, direccion_real);
+
 	jugador_se_mueve = true;
 }
 
-if(keyboard_check_pressed(vk_left) and puede_moverse){
-	direction = 180;
-	speed = velocidad;
-	derecha_izquierda = false;
-	jugador_se_mueve = true;
-}
 
-if(keyboard_check_pressed(vk_up) and puede_moverse){
-	direction = 90;
-	speed = velocidad;
-}
-
-if(keyboard_check_pressed(vk_down) and puede_moverse){
-	direction = -90;
-	speed = velocidad;
-}
-
-if((keyboard_check_released(vk_down) or keyboard_check_released(vk_up) or keyboard_check_released(vk_space) or keyboard_check_released(vk_right) or keyboard_check_released(vk_left) or mouse_check_button_released(mb_left)) and puede_moverse){
+// Quitar aceleración si ya se pulsa nada
+if((!tecla_pulsada or mouse_check_button_released(mb_left)) and puede_moverse){
 	derecha_izquierda = !derecha_izquierda;
 	speed = 0;
 	jugador_se_mueve = false;
@@ -55,6 +58,11 @@ if((y >= 1000) or ((x >= 1388) or (x <= -18))){
 	instance_destroy(obj_jugadorBase);
 	instance_destroy(obj_rayoLaser);
 	room_goto(rm_inicio);
+}
+
+// Si ya no se puede mover entonces speed sera 0
+if(!puede_moverse){
+	speed = 0;
 }
 
 // Crear animacion cuando choca
