@@ -53,6 +53,7 @@ if((y >= 1000) or ((x >= 1388) or (x <= -18))){
 	instance_destroy(obj_meteoritos);
 	instance_destroy(obj_nave);
 	instance_destroy(obj_jugadorBase);
+	instance_destroy(obj_rayoLaser);
 	room_goto(rm_inicio);
 }
 

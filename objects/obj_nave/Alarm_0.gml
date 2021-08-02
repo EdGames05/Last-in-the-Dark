@@ -1,66 +1,74 @@
 
 // Fijar nivel
 // Cambiar de nivel por cantidad de puntos
-switch(global.puntos)
-{
-	case 200:{
-		global.nivel = 2;
-		break;
-	}
-	case 400:{
-		global.nivel = 3;
-		alarm[1] = 1;
-		break;
-	}
-	case 800:{
-		global.nivel = 4;
-		alarm[1] = 1;
-		break;
-	}
-	case 1200:{
-		global.nivel = 5;
-		break;
-	}
-	case 1500:{
-		global.nivel = 6;
-		break;
-	}
-	case 1800:{
-		global.nivel = 7;
-		break;
-	}
-	case 2000:{
-		global.nivel = 8;
-		break;
-	}
-	case 2500:{
-		global.nivel = 9;
-		break;
-	}
-	case 2800:{
-		global.nivel = 10;
-		break;
-	}
-	case 3000:{
-		global.nivel = 12;
-		break;
-	}
-	case 3300:{
-		global.nivel = 13;
-		break;
-	}
-	case 3700:{
-		global.nivel = 14;
-		break;
-	}
-	case 4000:{
-		global.nivel = 15;
-		break;
-	}
-	case 5000:{
-		global.nivel = 16;
-		break;
-	}
+
+if(global.puntos >= 200){
+	global.nivel = 2;
+}
+
+if(global.puntos >= 400){
+	global.nivel = 3;
+	alarm[1] = 1;
+}
+
+if(global.puntos >= 800){
+	global.nivel = 4;
+	alarm[1] = 1;
+}
+
+if(global.puntos >= 1200){
+	global.nivel = 5;
+	alarm[1] = 1;
+}
+
+if(global.puntos >= 1500){
+	global.nivel = 6;
+	alarm[1] = 1;
+}
+
+if(global.puntos >= 1800){
+	global.nivel = 7;
+	alarm[1] = 1;
+}
+
+if(global.puntos >= 2000){
+	global.nivel = 8;
+	alarm[1] = 1;
+}
+
+if(global.puntos >= 2500){
+	global.nivel = 9;
+	alarm[1] = 1;
+}
+
+if(global.puntos >= 2800){
+	global.nivel = 10;
+	alarm[1] = 1;
+}
+
+if(global.puntos >= 3000){
+	global.nivel = 12;
+	alarm[1] = 1;
+}
+
+if(global.puntos >= 3300){
+	global.nivel = 13;
+	alarm[1] = 1;
+}
+
+if(global.puntos >= 3700){
+	global.nivel = 14;
+	alarm[1] = 1;
+}
+
+if(global.puntos >= 4000){
+	global.nivel = 15;
+	alarm[1] = 1;
+}
+
+if(global.puntos >= 5000){
+	global.nivel = 16;
+	alarm[1] = 1;
 }
 
 var xPos = irandom_range(x - 310, x + 310);
