@@ -47,6 +47,7 @@ if((!tecla_pulsada or mouse_check_button_released(mb_left)) and puede_moverse){
 	jugador_se_mueve = false;
 }
 
+/*
 if((y >= 1000) or ((x >= 1388) or (x <= -18))){
 	if(global.puntos > int64(global.puntos_anterior)){
 		ini_open("last_in_the_dark.ala");
@@ -59,6 +60,7 @@ if((y >= 1000) or ((x >= 1388) or (x <= -18))){
 	instance_destroy(obj_rayoLaser);
 	room_goto(rm_inicio);
 }
+*/
 
 // Si ya no se puede mover entonces speed sera 0
 if(!puede_moverse){
@@ -80,4 +82,25 @@ if(objeto_choco != noone){
 	sprite_index = spr_chocaRoca;
 	direction = objeto_choco.direction;
 	speed = objeto_choco.speed;
+}
+
+// Destruir si está fuera de los limites
+var cam = view_camera[0];
+var x1 = camera_get_view_x(cam);
+var y1 = camera_get_view_y(cam);
+var x2 = x1 + camera_get_view_width(cam);
+var y2 = y1 + camera_get_view_height(cam);
+if( !point_in_rectangle( x, y, x1, y1, x2, y2)){
+	
+	if(global.puntos > int64(global.puntos_anterior)){
+		ini_open("last_in_the_dark.ala");
+		ini_write_string("puntos", "puntos_anteriores", string(global.puntos));
+		ini_close();
+	}
+	instance_destroy(obj_meteoritos);
+	instance_destroy(obj_nave);
+	instance_destroy(obj_jugadorBase);
+	instance_destroy(obj_rayoLaser);
+	room_goto(rm_inicio);
+    //instance_destroy();
 }
