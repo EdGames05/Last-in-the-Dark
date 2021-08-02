@@ -1,10 +1,14 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
+draw_set_font(fuenta_fredericka);
+
 if(room == rm_nivel){
 	draw_set_color(c_white);
 	draw_text(x, y, "SCORE: " + string(global.puntos));
+	draw_set_color(c_white);
 	draw_text(x, y + 30, "RECORD: " + global.puntos_anterior);
+	draw_set_color(c_white);
 	
 	var proximo_nivel = "200";
 	if(global.nivel == 1)

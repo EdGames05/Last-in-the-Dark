@@ -16,6 +16,7 @@
     {"id":{"name":"spr_escudo","path":"sprites/spr_escudo/spr_escudo.yy",},"order":5,},
     {"id":{"name":"spr_chocaRoca","path":"sprites/spr_chocaRoca/spr_chocaRoca.yy",},"order":8,},
     {"id":{"name":"obj_meteoritos","path":"objects/obj_meteoritos/obj_meteoritos.yy",},"order":3,},
+    {"id":{"name":"fuenta_fredericka","path":"fonts/fuenta_fredericka/fuenta_fredericka.yy",},"order":0,},
     {"id":{"name":"rm_inicio","path":"rooms/rm_inicio/rm_inicio.yy",},"order":0,},
   ],
   "Options": [
