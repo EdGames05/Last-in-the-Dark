@@ -13,7 +13,6 @@
     {"id":{"name":"spr_rayoLaser","path":"sprites/spr_rayoLaser/spr_rayoLaser.yy",},"order":6,},
     {"id":{"name":"spr_roca","path":"sprites/spr_roca/spr_roca.yy",},"order":4,},
     {"id":{"name":"spr_fondoInicio","path":"sprites/spr_fondoInicio/spr_fondoInicio.yy",},"order":0,},
-    {"id":{"name":"son_musica","path":"sounds/son_musica/son_musica.yy",},"order":1,},
     {"id":{"name":"spr_espacioParaJugar","path":"sprites/spr_espacioParaJugar/spr_espacioParaJugar.yy",},"order":1,},
     {"id":{"name":"spr_escudo","path":"sprites/spr_escudo/spr_escudo.yy",},"order":5,},
     {"id":{"name":"spr_chocaRoca","path":"sprites/spr_chocaRoca/spr_chocaRoca.yy",},"order":8,},

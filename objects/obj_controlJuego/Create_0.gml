@@ -13,9 +13,11 @@ ini_open("last_in_the_dark.ala")
 global.puntos_anterior = ini_read_string("puntos", "puntos_anteriores", "0");
 ini_close();
 
+/*
 if(room == rm_nivel){
 	audio_play_sound(son_musica, 1, true);
 }
 else{
 	audio_stop_sound(son_musica);
 }
+*/
