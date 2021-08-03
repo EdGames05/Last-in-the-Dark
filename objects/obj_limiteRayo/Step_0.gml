@@ -10,4 +10,5 @@ if((obj_jugadorInstancia != noone) and (puede_disparar))
 	puede_disparar = false;
 	alarm[0] = 50;
 	instance_create_depth(obj_nave.x, obj_nave.y + 50, 0, obj_rayoLaser);
+	audio_play_sound(son_laser, 1, false);
 }

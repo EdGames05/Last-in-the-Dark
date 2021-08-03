@@ -5,6 +5,7 @@ instance_create_depth(obj_nave.x, obj_nave.y + 50, 0, obj_rayoLaser);
 if(global.nivel == 3)
 {
 	alarm[1] = 60;
+	audio_play_sound(son_laser, 1, false);
 }
 else
 if(global.nivel == 4)
@@ -15,6 +16,7 @@ if(global.nivel == 4)
 			instance_create_depth(obj_nave.x, obj_nave.y + 50, 0, obj_rayoLaser);
 		}
 	}
+	audio_play_sound(son_laser, 1, false);
 	alarm[1] = 55;
 }
 else
@@ -26,6 +28,7 @@ if(global.nivel == 5)
 			instance_create_depth(obj_nave.x, obj_nave.y + 50, 0, obj_rayoLaser);
 		}
 	}
+	audio_play_sound(son_laser, 1, false);
 	alarm[1] = 50;
 }
 else
@@ -37,6 +40,7 @@ if(global.nivel == 6)
 			instance_create_depth(obj_nave.x, obj_nave.y + 50, 0, obj_rayoLaser);
 		}
 	}
+	audio_play_sound(son_laser, 1, false);
 	
 	alarm[1] = 48;
 }
@@ -49,6 +53,7 @@ if(global.nivel == 7)
 			instance_create_depth(obj_nave.x, obj_nave.y + 50, 0, obj_rayoLaser);
 		}
 	}
+	audio_play_sound(son_laser, 1, false);
 	alarm[1] = 46;
 }
 else
@@ -60,6 +65,7 @@ if(global.nivel == 8)
 			instance_create_depth(obj_nave.x, obj_nave.y + 50, 0, obj_rayoLaser);
 		}
 	}
+	audio_play_sound(son_laser, 1, false);
 	alarm[1] = 42;
 }
 else
@@ -71,6 +77,7 @@ if(global.nivel == 9)
 			instance_create_depth(obj_nave.x, obj_nave.y + 50, 0, obj_rayoLaser);
 		}
 	}
+	audio_play_sound(son_laser, 1, false);
 	alarm[1] = 40;
 }
 else
@@ -82,6 +89,7 @@ if(global.nivel == 10)
 			instance_create_depth(obj_nave.x, obj_nave.y + 50, 0, obj_rayoLaser);
 		}
 	}
+	audio_play_sound(son_laser, 1, false);
 	alarm[1] = 35;
 }
 else
@@ -93,6 +101,7 @@ if(global.nivel == 11)
 			instance_create_depth(obj_nave.x, obj_nave.y + 50, 0, obj_rayoLaser);
 		}
 	}
+	audio_play_sound(son_laser, 1, false);
 	alarm[1] = 100;
 }
 else
@@ -104,6 +113,7 @@ if(global.nivel == 12)
 			instance_create_depth(obj_nave.x, obj_nave.y + 50, 0, obj_rayoLaser);
 		}
 	}
+	audio_play_sound(son_laser, 1, false);
 	alarm[1] = 100;
 }
 else
@@ -115,6 +125,7 @@ if(global.nivel == 13)
 			instance_create_depth(obj_nave.x, obj_nave.y + 50, 0, obj_rayoLaser);
 		}
 	}
+	audio_play_sound(son_laser, 1, false);
 	alarm[1] = 100;
 }
 else
@@ -126,6 +137,7 @@ if(global.nivel == 14)
 			instance_create_depth(obj_nave.x, obj_nave.y + 50, 0, obj_rayoLaser);
 		}
 	}
+	audio_play_sound(son_laser, 1, false);
 	alarm[1] = 100;
 }
 else
@@ -137,6 +149,7 @@ if(global.nivel == 15)
 			instance_create_depth(obj_nave.x, obj_nave.y + 50, 0, obj_rayoLaser);
 		}
 	}
+	audio_play_sound(son_laser, 1, false);
 	alarm[1] = 150;
 }
 else
@@ -148,6 +161,7 @@ if(global.nivel == 16)
 			instance_create_depth(obj_nave.x, obj_nave.y + 50, 0, obj_rayoLaser);
 		}
 	}
+	audio_play_sound(son_laser, 1, false);
 	alarm[1] = 200;
 }
 else{
@@ -157,5 +171,6 @@ else{
 			instance_create_depth(obj_nave.x, obj_nave.y + 50, 0, obj_rayoLaser);
 		}
 	}
+	audio_play_sound(son_laser, 1, false);
 	alarm[1] = 300;
 }
