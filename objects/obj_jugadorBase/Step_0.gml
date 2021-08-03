@@ -1,7 +1,7 @@
 /// @description Detectar teclas pulsadas
 // Puede escribir su código en este editor
 
-if((keyboard_check_pressed(vk_space) or mouse_check_button_pressed(mb_left)) and puede_moverse){
+if((keyboard_check_pressed(vk_space) or mouse_check_button_pressed(mb_left)) and puede_moverse and (objeto_choco == noone)){
 	if(derecha_izquierda){
 		direction = 0;
 		speed = velocidad;
@@ -84,12 +84,13 @@ if(objeto_choco != noone){
 	speed = objeto_choco.speed;
 }
 
+
 // Destruir si está fuera de los limites
 var cam = view_camera[0];
-var x1 = camera_get_view_x(cam);
-var y1 = camera_get_view_y(cam);
-var x2 = x1 + camera_get_view_width(cam);
-var y2 = y1 + camera_get_view_height(cam);
+var x1 = camera_get_view_x(cam) + 10;
+var y1 = camera_get_view_y(cam) + 10;
+var x2 = x1 + camera_get_view_width(cam) + 10;
+var y2 = y1 + camera_get_view_height(cam) + 10;
 if( !point_in_rectangle( x, y, x1, y1, x2, y2)){
 	
 	if(global.puntos > int64(global.puntos_anterior)){

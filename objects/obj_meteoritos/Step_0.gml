@@ -20,5 +20,4 @@ if( !point_in_rectangle( x, y, x1, y1, x2, y2)){
 	global.meteoritos -= 1;
 	global.puntos += 20;
 	instance_destroy();
-    instance_destroy();
 }
