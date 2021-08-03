@@ -1,6 +1,6 @@
 {
-  "compression": 3,
-  "volume": 0.78,
+  "compression": 0,
+  "volume": 0.9,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "son_laser.ogg",
-  "duration": 0.444082,
+  "soundFile": "son_musica.ogg",
+  "duration": 53.6538544,
   "parent": {
     "name": "Sonidos",
     "path": "folders/Sonidos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "son_laser",
+  "name": "son_musica",
   "tags": [],
   "resourceType": "GMSound",
 }
