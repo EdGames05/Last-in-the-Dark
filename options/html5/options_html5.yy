@@ -1,6 +1,6 @@
 {
-  "option_html5_browser_title": "Created with GameMaker Studio 2",
-  "option_html5_version": "1.0.0.2",
+  "option_html5_browser_title": "LITD",
+  "option_html5_version": "1.0.0.3",
   "option_html5_foldername": "last_in_the_dark",
   "option_html5_outputname": "index.html",
   "option_html5_splash_png": "splash.png",

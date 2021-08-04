@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 9,
-  "bbox_right": 119,
-  "bbox_top": 1,
-  "bbox_bottom": 12,
+  "bbox_left": 12,
+  "bbox_right": 496,
+  "bbox_top": 21,
+  "bbox_bottom": 73,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 120,
-  "height": 15,
+  "width": 512,
+  "height": 100,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f2c7b874-9816-4806-8bee-9a37542db4e4","path":"sprites/spr_espacioParaJugar/spr_espacioParaJugar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f2c7b874-9816-4806-8bee-9a37542db4e4","path":"sprites/spr_espacioParaJugar/spr_espacioParaJugar.yy",},"LayerId":{"name":"497f2975-2e19-46b6-b8e8-1c9c0b496d17","path":"sprites/spr_espacioParaJugar/spr_espacioParaJugar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_espacioParaJugar","path":"sprites/spr_espacioParaJugar/spr_espacioParaJugar.yy",},"resourceVersion":"1.0","name":"f2c7b874-9816-4806-8bee-9a37542db4e4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"04637b0e-a31b-4f54-bbe2-991c3547afe7","path":"sprites/spr_espacioParaJugar/spr_espacioParaJugar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"04637b0e-a31b-4f54-bbe2-991c3547afe7","path":"sprites/spr_espacioParaJugar/spr_espacioParaJugar.yy",},"LayerId":{"name":"3c0e1cd1-9944-4e75-a3f4-a9d38081a6a8","path":"sprites/spr_espacioParaJugar/spr_espacioParaJugar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_espacioParaJugar","path":"sprites/spr_espacioParaJugar/spr_espacioParaJugar.yy",},"resourceVersion":"1.0","name":"04637b0e-a31b-4f54-bbe2-991c3547afe7","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_espacioParaJugar","path":"sprites/spr_espacioParaJugar/spr_espacioParaJugar.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c3715759-ebac-48e7-9a2a-90c2a545c7f5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f2c7b874-9816-4806-8bee-9a37542db4e4","path":"sprites/spr_espacioParaJugar/spr_espacioParaJugar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"005e0a66-58fb-4d36-8855-da04028f77d9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"04637b0e-a31b-4f54-bbe2-991c3547afe7","path":"sprites/spr_espacioParaJugar/spr_espacioParaJugar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"497f2975-2e19-46b6-b8e8-1c9c0b496d17","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3c0e1cd1-9944-4e75-a3f4-a9d38081a6a8","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
