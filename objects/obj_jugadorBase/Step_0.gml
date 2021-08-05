@@ -1,7 +1,7 @@
 /// @description Detectar teclas pulsadas
 // Puede escribir su código en este editor
 
-if((keyboard_check_pressed(vk_space) or mouse_check_button_pressed(mb_left)) and puede_moverse and (objeto_choco == noone)){
+if((keyboard_check_pressed(vk_space) or mouse_check_button_pressed(mb_left)) and puede_moverse){
 	if(derecha_izquierda){
 		direction = 0;
 		speed = velocidad;
@@ -41,7 +41,7 @@ if(tecla_pulsada and puede_moverse){
 
 
 // Quitar aceleración si ya se pulsa nada
-if((!tecla_pulsada or mouse_check_button_released(mb_left)) and puede_moverse){
+if((!tecla_pulsada and (mouse_check_button_released(mb_left) or keyboard_check_released(vk_space))) and puede_moverse){
 	derecha_izquierda = !derecha_izquierda;
 	speed = 0;
 	jugador_se_mueve = false;
